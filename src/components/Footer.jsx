@@ -10,7 +10,7 @@ export function Footer() {
                 <Row className="gy-2">
                     <Col md={3}>
                         <div className="footer-brand mb-3">
-                            <a href="https://github.com/LondheShubham153/online_shop_hackathon" 
+                            <a href="https://github.com/siddheshsarnobat4000-byte/online-shopping-app" 
                                className="brand-link d-inline-flex align-items-center"
                             >
                                 <img src="/imgs/logo.svg" alt="Logo" width="30" height="30" className="me-2" />
@@ -23,7 +23,7 @@ export function Footer() {
                         <div className="contact-info">
                             <div className="contact-item mb-2">
                                 <FontAwesomeIcon icon={faMapMarkerAlt} className="contact-icon me-2" />
-                                <span><strong>Address:</strong> Bihar, India</span>
+                                <span><strong>Address:</strong> Kolhapur, Maharastra, India</span>
                             </div>
                             <div className="contact-item">
                                 <FontAwesomeIcon icon={faPhone} className="contact-icon me-2" />
@@ -37,15 +37,15 @@ export function Footer() {
                         <div className="quick-links-group">
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Privacy Policy</a>
+                                <a className="footer-link">Privacy Policy</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Terms & Conditions</a>
+                                <a className="footer-link">Terms & Conditions</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Return Policy</a>
+                                <a className="footer-link">Return Policy</a>
                             </div>
                         </div>
                     </Col>
@@ -55,15 +55,15 @@ export function Footer() {
                         <div className="quick-links-group">
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Shipping Info</a>
+                                <a className="footer-link">Shipping Info</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">FAQ</a>
+                                <a className="footer-link">FAQ</a>
                             </div>
                             <div className="quick-link-item">
                                 <FontAwesomeIcon icon={faLink} className="contact-icon me-2" />
-                                <a href="https://trainwithshubham.com" className="footer-link">Support</a>
+                                <a className="footer-link">Support</a>
                             </div>
                         </div>
                     </Col>
@@ -76,7 +76,7 @@ export function Footer() {
                             </h5>
                             <div className="social-links-horizontal">
                                 <a 
-                                    href="https://github.com/LondheShubham153" 
+                                    href="https://github.com/siddheshsarnobat4000-byte" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -84,7 +84,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faGithub} />
                                 </a>
                                 <a 
-                                    href="https://linkedin.com/in/shubhamlondhe1996" 
+                                    href="https://www.linkedin.com/in/siddhesh-sarnobat-2a3582340/" 
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -92,7 +92,7 @@ export function Footer() {
                                     <FontAwesomeIcon icon={faLinkedin} />
                                 </a>
                                 <a 
-                                    href="https://twitter.com/trainwitshubham" 
+                                     
                                     target="_blank" 
                                     rel="noopener noreferrer" 
                                     className="social-link"
@@ -110,21 +110,19 @@ export function Footer() {
                     <div className="mb-1">
                         Made with <FontAwesomeIcon icon={faHeart} className="heart-icon" /> by{" "}
                         <a 
-                            href="https://iemafzalhassan.tech" 
+                             
                             target="_blank" 
                             rel="noopener noreferrer"
                             className="author-link"
                         >
-                            Md. Afzal Hassan Ehsani
+                           Mr. Siddhesh Ranjeet Sarnobat
                         </a>
                     </div>
                     <div>
                         <FontAwesomeIcon icon={faCopyright} /> {new Date().getFullYear()} Online Shop. 
                         All rights reserved.
                     </div>
-                    <div className="mt-1">
-                    Driven for TrainWithShubham Community.
-                    </div>
+                   
                 </div>
             </Container>
         </footer>
